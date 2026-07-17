@@ -1,0 +1,208 @@
+C:\Users\xyz>"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\dumpbin.exe" /EXPORTS C:\Users\xyz\code\ctypes\EziMOTIONPlusRx64.dll
+Microsoft (R) COFF/PE Dumper Version 14.27.29112.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ 
+ 
+Dump of file C:\Users\xyz\code\ctypes\EziMOTIONPlusRx64.dll
+ 
+File Type: DLL
+ 
+  Section contains the following exports for EziMOTIONPlusRx64.dll
+ 
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+         178 number of functions
+         178 number of names
+ 
+    ordinal hint RVA      name
+ 
+          1    0 000129D0 ?FAS_AllEmergencyStop@@YAHE@Z
+          2    1 00012AC0 ?FAS_AllMoveOriginSingleAxis@@YAHE@Z
+          3    2 00012BB0 ?FAS_AllMoveSingleAxisAbsPos@@YAHEJK@Z
+          4    3 00012E10 ?FAS_AllMoveSingleAxisIncPos@@YAHEJK@Z
+          5    4 000128E0 ?FAS_AllMoveStop@@YAHE@Z
+          6    5 0000C2C0 ?FAS_AttachSlave@@YAHEE@Z
+          7    6 0000D330 ?FAS_BrakeSet@@YAHEEHPEAH@Z
+          8    7 000149F0 ?FAS_ClearLatch@@YAHEEK@Z
+          9    8 00014FF0 ?FAS_ClearLatchCount@@YAHEEK@Z
+         10    9 0000EA00 ?FAS_ClearPosition@@YAHEE@Z
+         11    A 0000C2D0 ?FAS_Close@@YAXE@Z
+         12    B 0000C230 ?FAS_Connect@@YAHEK@Z
+         13    C 0000BB60 ?FAS_ControlReboot@@YAHEE@Z
+         14    D 0000BEE0 ?FAS_CustomizeCommand@@YAHEEPEAE0@Z
+         15    E 00009050 ?FAS_DetachSlave@@YAXEE@Z
+         16    F 0000B9C0 ?FAS_Drive2Function@@YAHEEEGJPEAGPEAJ@Z
+         17   10 0000B770 ?FAS_Drive2GetParam@@YAHEEGPEAJ@Z
+         18   11 0000B5F0 ?FAS_Drive2GetVersion@@YAHEEPEAGPEAK@Z
+         19   12 0000B880 ?FAS_Drive2SetParam@@YAHEEGJ@Z
+         20   13 0000B4F0 ?FAS_DriverFunction@@YAHEEG@Z
+         21   14 0000B290 ?FAS_DriverGetParam@@YAHEEKPEAJ@Z
+         22   15 0000B150 ?FAS_DriverGetVersion@@YAHEEPEAU_DRIVE_VERSION@@@Z
+         23   16 0000B3A0 ?FAS_DriverSetParam@@YAHEEKJ@Z
+         24   17 0000F320 ?FAS_EmergencyStop@@YAHEE@Z
+         25   18 0000C3C0 ?FAS_EnableLog@@YAXH@Z
+         26   19 0000A5F0 ?FAS_EraseBootROM@@YAHEE@Z
+         27   1A 0000A110 ?FAS_EraseFLASH@@YAHEE@Z
+         28   1B 0000A920 ?FAS_EraseNetbaseROM@@YAHEE@Z
+         29   1C 00013E80 ?FAS_GapControlDisable@@YAHEE@Z
+         30   1D 00013C80 ?FAS_GapControlEnable@@YAHEEGJJJJ@Z
+         31   1E 00014130 ?FAS_GapControlGetADCValue@@YAHEEPEAJ@Z
+         32   1F 00014290 ?FAS_GapOneResultMonitor@@YAHEEPEAEPEAJ11111@Z
+         33   20 00016430 ?FAS_GetADConfig@@YAHEEEW4AD_DATA_TYPE@@PEAJ@Z
+         34   21 00016D70 ?FAS_GetADResult@@YAHEEEPEAM@Z
+         35   22 0000EC80 ?FAS_GetActualPos@@YAHEEPEAJ@Z
+         36   23 0000EF40 ?FAS_GetActualVel@@YAHEEPEAJ@Z
+         37   24 00014560 ?FAS_GetAlarmLogs@@YAHEEPEAUALARM_LOG@@@Z
+         38   25 0000F0A0 ?FAS_GetAlarmType@@YAHEEPEAE@Z
+         39   26 000184C0 ?FAS_GetAllABSStatus_V8@@YAHEEPEA_KPEAK1PEAJ222PEAG@Z
+         40   27 00016B40 ?FAS_GetAllADResult@@YAHEEPEATAD_RESULT@@@Z
+         41   28 0000E3A0 ?FAS_GetAllStatus@@YAHEEPEAK00PEAJ111PEAG@Z
+         42   29 0000E610 ?FAS_GetAllStatusEx@@YAHEEPEAEPEAJ@Z
+         43   2A 000182A0 ?FAS_GetAllStatusEx_V8@@YAHEEPEAK000PEAJ111PEAG@Z
+         44   2B 000180C0 ?FAS_GetAllStatus_V8@@YAHEEPEA_KPEAK1PEAJ222PEAG@Z
+         45   2C 0000DEE0 ?FAS_GetAxisStatus@@YAHEEPEAK@Z
+         46   2D 00009CB0 ?FAS_GetCalibrationResult@@YAHEEPEAK@Z
+         47   2E 0000EB20 ?FAS_GetCommandPos@@YAHEEPEAJ@Z
+         48   2F 00009120 ?FAS_GetFirmwareInfo@@YAHEEPEAE@Z
+         49   30 0000B060 ?FAS_GetHiddenParam@@YAHEEPEAEJ@Z
+         50   31 0000DA60 ?FAS_GetIOAssignMap@@YAHEEEPEAKPEAE@Z
+         51   32 0000E030 ?FAS_GetIOAxisStatus@@YAHEEPEAK00@Z
+         52   33 00015FC0 ?FAS_GetIODirection@@YAHEEPEAK@Z
+         53   34 0000D630 ?FAS_GetIOInput@@YAHEEPEAK@Z
+         54   35 00017480 ?FAS_GetIOInputEx_V8@@YAHEEPEAK0@Z
+         55   36 00017360 ?FAS_GetIOInput_V8@@YAHEEPEA_K@Z
+         56   37 00015840 ?FAS_GetIOLevel@@YAHEEPEAK@Z
+         57   38 0000D910 ?FAS_GetIOOutput@@YAHEEPEAK@Z
+         58   39 00017D60 ?FAS_GetIOStatusEx_V8@@YAHEEPEAK00@Z
+         59   3A 00017C40 ?FAS_GetIOStatus_V8@@YAHEEPEA_KPEAK@Z
+         60   3B 00014880 ?FAS_GetInput@@YAHEEPEAK0@Z
+         61   3C 00017640 ?FAS_GetInputAssignMap_V8@@YAHEEEPEAE0@Z
+         62   3D 00015D20 ?FAS_GetInputFilter@@YAHEEPEAG@Z
+         63   3E 00014B30 ?FAS_GetLatchCount@@YAHEEEPEAK@Z
+         64   3F 00014E30 ?FAS_GetLatchCountAll32@@YAHEEPEAPEAK@Z
+         65   40 00014CA0 ?FAS_GetLatchCountAll@@YAHEEPEAPEAK@Z
+         66   41 0000E1C0 ?FAS_GetMotionStatus@@YAHEEPEAJ000PEAG@Z
+         67   42 00017ED0 ?FAS_GetMotionStatus_V8@@YAHEEPEAJ000PEAK@Z
+         68   43 0000C6E0 ?FAS_GetMotorInfo@@YAHEEPEAEPEADH@Z
+         69   44 00015130 ?FAS_GetOutput@@YAHEEPEAK0@Z
+         70   45 000177D0 ?FAS_GetOutputAssignMap_V8@@YAHEEEPEAE0@Z
+         71   46 0000CCB0 ?FAS_GetParameter@@YAHEEEPEAJ@Z
+         72   47 0000EDE0 ?FAS_GetPosError@@YAHEEPEAJ@Z
+         73   48 00009060 ?FAS_GetProtocolVersion@@YAHEE@Z
+         74   49 00012210 ?FAS_GetPushStatus@@YAHEEPEAE@Z
+         75   4A 0000CE20 ?FAS_GetROMParameter@@YAHEEEPEAJ@Z
+         76   4B 000187F0 ?FAS_GetRunPTStatus_V8@@YAHEEPEAG@Z
+         77   4C 0000C550 ?FAS_GetSlaveInfo@@YAHEEPEAEPEADH@Z
+         78   4D 0000C850 ?FAS_GetSlaveInfoEx@@YAHEEPEAU_DRIVE_INFO@@@Z
+         79   4E 0000BC80 ?FAS_GetTempVolt@@YAHEEPEAG0@Z
+         80   4F 000156D0 ?FAS_GetTriggerCount@@YAHEEEPEAK@Z
+         81   50 00011D00 ?FAS_GetTriggerOutputEx@@YAHEEEPEAEPEAG0PEAJ@Z
+         82   51 0000DDB0 ?FAS_IOAssignMapReadROM@@YAHEE@Z
+         83   52 0000A460 ?FAS_IsBootROMErased@@YAHEEPEAH@Z
+         84   53 00013FA0 ?FAS_IsGapControlEnable@@YAHEEPEAHPEAG@Z
+         85   54 00009F10 ?FAS_IsROMErased@@YAHEEPEAH@Z
+         86   55 0000A010 ?FAS_IsRunROMExist@@YAHEEPEAH@Z
+         87   56 0000C2E0 ?FAS_IsSlaveExist@@YAHEE@Z
+         88   57 000165B0 ?FAS_LoadADConfig@@YAHEE@Z
+         89   58 00015AE0 ?FAS_LoadIOLevel@@YAHEE@Z
+         90   59 00010840 ?FAS_MoveCircleAbsPos1@@YAHEEPEAEPEAJ1HKGH@Z
+         91   5A 00010D70 ?FAS_MoveCircleAbsPos2@@YAHEEPEAEPEAJKHKGH@Z
+         92   5B 00011270 ?FAS_MoveCircleAbsPos3@@YAHEEPEAEPEAJKHKGH@Z
+         93   5C 00010AF0 ?FAS_MoveCircleIncPos1@@YAHEEPEAEPEAJ1HKGH@Z
+         94   5D 00011000 ?FAS_MoveCircleIncPos2@@YAHEEPEAEPEAJKHKGH@Z
+         95   5E 00011500 ?FAS_MoveCircleIncPos3@@YAHEEPEAEPEAJKHKGH@Z
+         96   5F 00010460 ?FAS_MoveLinearAbsPos2@@YAHEEPEAEPEAJKG@Z
+         97   60 00010080 ?FAS_MoveLinearAbsPos@@YAHEEPEAEPEAJKG@Z
+         98   61 000106C0 ?FAS_MoveLinearIncPos2@@YAHEEPEAEPEAJKG@Z
+         99   62 000102E0 ?FAS_MoveLinearIncPos@@YAHEEPEAEPEAJKG@Z
+        100   63 0000F580 ?FAS_MoveOriginSingleAxis@@YAHEE@Z
+        101   64 0000F440 ?FAS_MovePause@@YAHEEH@Z
+        102   65 00011F90 ?FAS_MovePush@@YAHEEKKJGGGKJG@Z
+        103   66 0000F6A0 ?FAS_MoveSingleAxisAbsPos@@YAHEEJK@Z
+        104   67 00012370 ?FAS_MoveSingleAxisAbsPosEx@@YAHEEJKPEATMOTION_OPTION_EX@@@Z
+        105   68 0000F830 ?FAS_MoveSingleAxisIncPos@@YAHEEJK@Z
+        106   69 00012550 ?FAS_MoveSingleAxisIncPosEx@@YAHEEJKPEATMOTION_OPTION_EX@@@Z
+        107   6A 0000F200 ?FAS_MoveStop@@YAHEE@Z
+        108   6B 0000F9C0 ?FAS_MoveToLimit@@YAHEEKH@Z
+        109   6C 0000FB40 ?FAS_MoveVelocity@@YAHEEKH@Z
+        110   6D 00012730 ?FAS_MoveVelocityEx@@YAHEEKHPEATVELOCITY_OPTION_EX@@@Z
+        111   6E 0000BFD0 ?FAS_ObjectRead@@YAHEEGPEAJ@Z
+        112   6F 0000C0E0 ?FAS_ObjectWrite@@YAHEEGJ@Z
+        113   70 0000C2B0 ?FAS_OpenPort@@YAHEK@Z
+        114   71 00009390 ?FAS_PosTableIsData@@YAHEEPEAUPOSTABLE_DATAFLAG@@@Z
+        115   72 00009480 ?FAS_PosTableIsDataEx@@YAHEEKPEAUPOSTABLE_DATAFLAG_EX@@@Z
+        116   73 00013070 ?FAS_PosTableReadItem@@YAHEEGPEATITEM_NODE@@@Z
+        117   74 000137E0 ?FAS_PosTableReadOneItem@@YAHEEGGPEAJ@Z
+        118   75 00013550 ?FAS_PosTableReadROM@@YAHEE@Z
+        119   76 000136A0 ?FAS_PosTableRunItem@@YAHEEG@Z
+        120   77 00013B10 ?FAS_PosTableSingleRunItem@@YAHEEHG@Z
+        121   78 00013210 ?FAS_PosTableWriteItem@@YAHEEGPEATITEM_NODE@@@Z
+        122   79 00013970 ?FAS_PosTableWriteOneItem@@YAHEEGGJ@Z
+        123   7A 00013400 ?FAS_PosTableWriteROM@@YAHEE@Z
+        124   7B 0000FCC0 ?FAS_PositionAbsOverride@@YAHEEJ@Z
+        125   7C 0000FE00 ?FAS_PositionIncOverride@@YAHEEJ@Z
+        126   7D 0000C400 ?FAS_PrintCustomLog@@YAXEW4LOG_LEVEL@@PEB_W@Z
+        127   7E 00016970 ?FAS_ReadADAllValue@@YAHEEEPEATAD_BUFFER@@@Z
+        128   7F 000167F0 ?FAS_ReadADValue@@YAHEEEPEAF@Z
+        129   80 0000A2C0 ?FAS_RebootBootROM@@YAHEE@Z
+        130   81 0000A390 ?FAS_RebootRunROM@@YAHEE@Z
+        131   82 00014760 ?FAS_ResetAlarmLogs@@YAHEE@Z
+        132   83 00009580 ?FAS_SERVOGetEncoder@@YAHEEPEAG@Z
+        133   84 00009670 ?FAS_STEPGetCurrent@@YAHEEEPEAG@Z
+        134   85 000099E0 ?FAS_STEPGetMotorDB@@YAHEEPEAULIST_MOTORDB@@@Z
+        135   86 00009780 ?FAS_STEPSetCurrent@@YAHEEG@Z
+        136   87 00009AD0 ?FAS_STEPSetMotorDB@@YAHEEE@Z
+        137   88 00009880 ?FAS_STEPVersion@@YAHEEPEADH@Z
+        138   89 000166D0 ?FAS_SaveADConfig@@YAHEE@Z
+        139   8A 0000CA10 ?FAS_SaveAllParameters@@YAHEE@Z
+        140   8B 00015C00 ?FAS_SaveIOLevel@@YAHEE@Z
+        141   8C 0000D0D0 ?FAS_ServoAlarmReset@@YAHEE@Z
+        142   8D 0000CF90 ?FAS_ServoEnable@@YAHEEH@Z
+        143   8E 00016260 ?FAS_SetADConfig@@YAHEEEW4AD_DATA_TYPE@@JPEAJ@Z
+        144   8F 00016FA0 ?FAS_SetADRange@@YAHEEEW4AD_RANGE@@@Z
+        145   90 0000E8C0 ?FAS_SetActualPos@@YAHEEJ@Z
+        146   91 00009DA0 ?FAS_SetCalibrationData@@YAHEEEKK@Z
+        147   92 0000E780 ?FAS_SetCommandPos@@YAHEEJ@Z
+        148   93 0000AF60 ?FAS_SetHiddenParam@@YAHEEPEAE@Z
+        149   94 00009230 ?FAS_SetIDValue@@YAHEEEW4BAUDRATE_INDEX@@@Z
+        150   95 0000DC20 ?FAS_SetIOAssignMap@@YAHEEEKE@Z
+        151   96 00016120 ?FAS_SetIODirection@@YAHEEK@Z
+        152   97 0000D4A0 ?FAS_SetIOInput@@YAHEEKK@Z
+        153   98 00017210 ?FAS_SetIOInputEx_V8@@YAHEEKKKK@Z
+        154   99 000170F0 ?FAS_SetIOInput_V8@@YAHEE_K0@Z
+        155   9A 000159A0 ?FAS_SetIOLevel@@YAHEEK@Z
+        156   9B 0000D780 ?FAS_SetIOOutput@@YAHEEKK@Z
+        157   9C 00017960 ?FAS_SetInputAssignMap_V8@@YAHEEEEE@Z
+        158   9D 00015E80 ?FAS_SetInputFilter@@YAHEEG@Z
+        159   9E 00009330 ?FAS_SetLogFileName@@YAHPEB_W@Z
+        160   9F 0000C3D0 ?FAS_SetLogLevel@@YAXW4LOG_LEVEL@@@Z
+        161   A0 0000C3E0 ?FAS_SetLogPath@@YAHPEB_W@Z
+        162   A1 000152A0 ?FAS_SetOutput@@YAHEEKK@Z
+        163   A2 00017AD0 ?FAS_SetOutputAssignMap_V8@@YAHEEEEE@Z
+        164   A3 0000CB30 ?FAS_SetParameter@@YAHEEEJ@Z
+        165   A4 00015580 ?FAS_SetRunStop@@YAHEEKK@Z
+        166   A5 000153F0 ?FAS_SetTrigger@@YAHEEEPEATTRIGGER_INFO@@@Z
+        167   A6 00011AB0 ?FAS_SetTriggerOutputEx@@YAHEEEEGEPEAJ@Z
+        168   A7 00009BD0 ?FAS_StartCalibration@@YAHEE@Z
+        169   A8 0000D1F0 ?FAS_StepAlarmReset@@YAHEEH@Z
+        170   A9 00011770 ?FAS_TriggerOutput_RunA@@YAHEEHJKK@Z
+        171   AA 00011950 ?FAS_TriggerOutput_Status@@YAHEEPEAE@Z
+        172   AB 0000ADD0 ?FAS_UpdateProgressNetbaseROM@@YAHEEPEAE@Z
+        173   AC 0000FF40 ?FAS_VelocityOverride@@YAHEEK@Z
+        174   AD 0000BDA0 ?FAS_VoltageCalibration@@YAHEEPEAEPEAG@Z
+        175   AE 0000A770 ?FAS_WriteBootROM@@YAHEEKPEAEE@Z
+        176   AF 0000AC50 ?FAS_WriteDoneNetbaseROM@@YAHEE@Z
+        177   B0 0000A1F0 ?FAS_WriteFLASH@@YAHEEKPEAEE@Z
+        178   B1 0000AAA0 ?FAS_WriteNetbaseROM@@YAHEEKPEAEE@Z
+ 
+  Summary
+ 
+        3000 .data
+        3000 .pdata
+       15000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       3B000 .text
+        1000 _RDATA
